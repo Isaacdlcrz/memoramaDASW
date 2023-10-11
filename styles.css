@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#cardContainer {
+    text-align: center;
+}
+
+.customCard {
+    display: inline-block;
+    width: 80px;
+    max-width: 80px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    margin: 5px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.flipped {
+    background-image: url("https://pbs.twimg.com/media/FgCDFV_UAAEwGYC.png")!important;
+}
+
+form {
+    color: white;
+}
